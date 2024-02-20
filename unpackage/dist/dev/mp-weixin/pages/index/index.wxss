@@ -1,0 +1,26 @@
+
+swiper{
+	width:100%;
+	height:400rpx;
+}
+.swiper-img{
+	width:100%;
+	height:400rpx;
+}
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 70px 0;/* 调整按钮之间的垂直外边距 */
+}
+.button-row {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+.text-center {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px; /* 可以根据需要调整间距 */
+}
+
