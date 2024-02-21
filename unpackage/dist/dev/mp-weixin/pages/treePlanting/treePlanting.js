@@ -1,6 +1,6 @@
 (global["webpackJsonp"] = global["webpackJsonp"] || []).push([["pages/treePlanting/treePlanting"],{
 
-/***/ 42:
+/***/ 50:
 /*!*****************************************************************************************************!*\
   !*** D:/04Coderlife/01uniapp project/app4.0/main.js?{"page":"pages%2FtreePlanting%2FtreePlanting"} ***!
   \*****************************************************************************************************/
@@ -13,7 +13,7 @@
 var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
 __webpack_require__(/*! uni-pages */ 26);
 var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 25));
-var _treePlanting = _interopRequireDefault(__webpack_require__(/*! ./pages/treePlanting/treePlanting.vue */ 43));
+var _treePlanting = _interopRequireDefault(__webpack_require__(/*! ./pages/treePlanting/treePlanting.vue */ 51));
 // @ts-ignore
 wx.__webpack_require_UNI_MP_PLUGIN__ = __webpack_require__;
 createPage(_treePlanting.default);
@@ -21,7 +21,7 @@ createPage(_treePlanting.default);
 
 /***/ }),
 
-/***/ 43:
+/***/ 51:
 /*!**********************************************************************************!*\
   !*** D:/04Coderlife/01uniapp project/app4.0/pages/treePlanting/treePlanting.vue ***!
   \**********************************************************************************/
@@ -155,5 +155,5 @@ exports.default = _default;
 
 /***/ })
 
-},[[42,"common/runtime","common/vendor"]]]);
+},[[50,"common/runtime","common/vendor"]]]);
 //# sourceMappingURL=../../../.sourcemap/mp-weixin/pages/treePlanting/treePlanting.js.map

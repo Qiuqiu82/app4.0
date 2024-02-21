@@ -1,6 +1,6 @@
 <template>
 	<view>
-		
+		<text>打卡</text>
 	</view>
 </template>
 

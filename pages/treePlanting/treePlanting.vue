@@ -1,6 +1,6 @@
 <template>
 	<view>
-		
+		<text>种树</text>
 	</view>
 </template>
 

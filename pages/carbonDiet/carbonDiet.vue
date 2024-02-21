@@ -1,6 +1,6 @@
 <template>
 	<view>
-		
+		<text>低碳饮食</text>
 	</view>
 </template>
 

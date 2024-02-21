@@ -1,6 +1,6 @@
 <template>
 	<view>
-		
+		<text>用电</text>
 	</view>
 </template>
 
