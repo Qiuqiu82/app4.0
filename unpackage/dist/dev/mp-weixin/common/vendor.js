@@ -9486,12 +9486,38 @@ internalMixin(Vue);
 
 
 /***/ }),
-/* 27 */,
+/* 27 */
+/*!***********************************************************************!*\
+  !*** D:/04Coderlife/01uniapp project/app4.0/uni.promisify.adaptor.js ***!
+  \***********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(uni) {var _typeof = __webpack_require__(/*! @babel/runtime/helpers/typeof */ 13);
+uni.addInterceptor({
+  returnValue: function returnValue(res) {
+    if (!(!!res && (_typeof(res) === "object" || typeof res === "function") && typeof res.then === "function")) {
+      return res;
+    }
+    return new Promise(function (resolve, reject) {
+      res.then(function (res) {
+        return res[0] ? reject(res[0]) : resolve(res[1]);
+      });
+    });
+  }
+});
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
+
+/***/ }),
 /* 28 */,
 /* 29 */,
 /* 30 */,
 /* 31 */,
-/* 32 */
+/* 32 */,
+/* 33 */,
+/* 34 */,
+/* 35 */,
+/* 36 */
 /*!**********************************************************************************************************!*\
   !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/runtime/componentNormalizer.js ***!
   \**********************************************************************************************************/
@@ -9620,29 +9646,6 @@ function normalizeComponent (
   }
 }
 
-
-/***/ }),
-/* 33 */
-/*!***********************************************************************!*\
-  !*** D:/04Coderlife/01uniapp project/app4.0/uni.promisify.adaptor.js ***!
-  \***********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-/* WEBPACK VAR INJECTION */(function(uni) {var _typeof = __webpack_require__(/*! @babel/runtime/helpers/typeof */ 13);
-uni.addInterceptor({
-  returnValue: function returnValue(res) {
-    if (!(!!res && (_typeof(res) === "object" || typeof res === "function") && typeof res.then === "function")) {
-      return res;
-    }
-    return new Promise(function (resolve, reject) {
-      res.then(function (res) {
-        return res[0] ? reject(res[0]) : resolve(res[1]);
-      });
-    });
-  }
-});
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ })
 ]]);
