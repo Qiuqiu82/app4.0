@@ -27,7 +27,7 @@
 					<view>帮助中心</view>
 				</view>
 				<view class="my-content-item">
-					<view>联系客服</view>
+					<view @tap="goContact">联系客服</view>
 				</view>
 		</view>
 	</view>
@@ -44,6 +44,11 @@
 			goConfig(){
 				uni.navigateTo({
 					url:'/pages/my-config/my-config'
+				})
+			},
+			goContact() {
+				uni.navigateTo({
+					url:'/pages/contact/contact'
 				})
 			}
 		}

@@ -87,6 +87,14 @@
                 "enablePullDownRefresh": false
             }
             
+        },
+        {
+        	"path" : "pages/contact/contact",
+        	"style" : 
+        	{
+        		"navigationBarTitleText" : "联系客服",
+        		"enablePullDownRefresh" : false
+        	}
         }
     ],
 	"globalStyle": {

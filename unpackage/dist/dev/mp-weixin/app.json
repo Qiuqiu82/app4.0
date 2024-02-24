@@ -9,7 +9,8 @@
     "pages/electric/electric",
     "pages/carbonTravel/carbonTravel",
     "pages/policy/policy",
-    "pages/my-config/my-config"
+    "pages/my-config/my-config",
+    "pages/contact/contact"
   ],
   "subPackages": [],
   "window": {

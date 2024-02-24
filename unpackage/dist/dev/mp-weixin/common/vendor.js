@@ -780,8 +780,8 @@ function populateParameters(result) {
     appVersion: "1.0.0",
     appVersionCode: "100",
     appLanguage: getAppLanguage(hostLanguage),
-    uniCompileVersion: "3.8.12",
-    uniRuntimeVersion: "3.8.12",
+    uniCompileVersion: "3.95",
+    uniRuntimeVersion: "3.95",
     uniPlatform: undefined || "mp-weixin",
     deviceBrand: deviceBrand,
     deviceModel: model,
@@ -9477,9 +9477,9 @@ internalMixin(Vue);
 
 /***/ }),
 /* 26 */
-/*!*********************************************************!*\
-  !*** D:/04Coderlife/01uniapp project/app4.0/pages.json ***!
-  \*********************************************************/
+/*!************************************************!*\
+  !*** C:/Users/29588/Desktop/app4.0/pages.json ***!
+  \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -9623,9 +9623,9 @@ function normalizeComponent (
 
 /***/ }),
 /* 33 */
-/*!***********************************************************************!*\
-  !*** D:/04Coderlife/01uniapp project/app4.0/uni.promisify.adaptor.js ***!
-  \***********************************************************************/
+/*!**************************************************************!*\
+  !*** C:/Users/29588/Desktop/app4.0/uni.promisify.adaptor.js ***!
+  \**************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
