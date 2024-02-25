@@ -13,7 +13,8 @@
     "pages/login/login",
     "pages/login-tel/login-tel",
     "components/common/Lines/Lines",
-    "pages/contact/contact"
+    "pages/contact/contact",
+    "pages/call/call"
   ],
   "subPackages": [],
   "window": {

@@ -1,0 +1,92 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 顶部 */
+.button-row.data-v-2264b186 {
+	display: flex;
+	justify-content: space-around;
+	margin: 5px;
+}
+.top-button.data-v-2264b186 {
+	padding: 1px 24px;
+	border: 2px solid #41a863;
+	background-color: transparent;
+	color: #41a863;
+	border-radius: 8px;
+	font-size: 16px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+.text-top.data-v-2264b186 {
+	font-weight: bold;
+	display: flex;
+	font-size: 20px
+}
+/* 文字样式 */
+.policy-list.data-v-2264b186 {
+	color: #333;
+	font-size: 28rpx;
+	padding-bottom: 80rpx;
+}
+.policy-item.data-v-2264b186 {
+	display: flex;
+	align-items: center;
+	background: #fff;
+	padding: 25rpx;
+	margin-bottom: 8rpx;
+}
+.policy-content.data-v-2264b186 {
+	flex: 1;
+	display: flex;
+	align-items: center;
+}
+.content.data-v-2264b186 {
+	flex: 1;
+	line-height: 50rpx;
+}
+
