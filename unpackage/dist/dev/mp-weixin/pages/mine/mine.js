@@ -190,6 +190,11 @@ var _default = {
       uni.navigateTo({
         url: "/pages/login/login"
       });
+    },
+    goContact: function goContact() {
+      uni.navigateTo({
+        url: "/pages/contact/contact"
+      });
     }
   }
 };

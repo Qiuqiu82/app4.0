@@ -12,7 +12,8 @@
     "pages/my-config/my-config",
     "pages/login/login",
     "pages/login-tel/login-tel",
-    "components/common/Lines/Lines"
+    "components/common/Lines/Lines",
+    "pages/contact/contact"
   ],
   "subPackages": [],
   "window": {

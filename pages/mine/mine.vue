@@ -26,8 +26,8 @@
 				<view class="my-content-item">
 					<view>帮助中心</view>
 				</view>
-				<view class="my-content-item">
-					<view>联系客服</view>
+				<view class="my-content-item" @tap='goContact'>
+					<view >联系客服</view>
 				</view>
 		</view>
 	</view>
@@ -49,6 +49,11 @@
 			goLogin(){
 				uni.navigateTo({
 					url:"/pages/login/login"
+				})
+			},
+			goContact(){
+				uni.navigateTo({
+					url:"/pages/contact/contact"
 				})
 			}
 		}
