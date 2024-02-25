@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "碳际汇",
+  "usingComponents": {
+    "login-other": "/components/login/login"
+  }
+}

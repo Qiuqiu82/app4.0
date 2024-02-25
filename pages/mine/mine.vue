@@ -6,7 +6,7 @@
 				<view class="header-config"@tap='goConfig'>
 					<image class="config-img" src="../../static/img/config.png" mode=""></image>
 				</view>
-				<view class="header-logo"><!-- 待替头像 -->
+				<view class="header-logo" @tap='goLogin'><!-- 待替头像 -->
 					<image class="logo-img" src="../../static/img/hot1.jpg" mode=""></image>
 					<view class="logo-name">用户昵称</view>
 				</view>
@@ -44,6 +44,11 @@
 			goConfig(){
 				uni.navigateTo({
 					url:'/pages/my-config/my-config'
+				})
+			},
+			goLogin(){
+				uni.navigateTo({
+					url:"/pages/login/login"
 				})
 			}
 		}

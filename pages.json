@@ -88,6 +88,37 @@
             }
             
         }
+        ,{
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+				"navigationBarTitleText": "碳际汇",
+				"app-plus": {
+					"titleNView": false,
+					"scrollIndicator": "none"
+						
+
+				}
+            }  
+        }
+        ,{
+            "path" : "pages/login-tel/login-tel",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "输入手机号",
+                "navigationBarBackgroundColor": "#FFFFFF"
+            }
+            
+        }
+        ,{
+            "path" : "components/common/Lines/Lines",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
