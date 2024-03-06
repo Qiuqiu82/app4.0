@@ -1,15 +1,21 @@
 <template>
 	<view>
-		<text>打卡</text>
+		<Calendar></Calendar>
+		
 	</view>
 </template>
 
 <script>
+	import Calendar from '@/components/calendar/Calendar/Calendar.vue';
+
 	export default {
 		data() {
 			return {
-				
+
 			}
+		},
+		components: {
+			Calendar
 		},
 		methods: {
 			
@@ -17,6 +23,7 @@
 	}
 </script>
 
-<style>
+<style scoped>
 
 </style>
+

@@ -14,7 +14,8 @@
     "pages/login-tel/login-tel",
     "components/common/Lines/Lines",
     "pages/contact/contact",
-    "pages/call/call"
+    "pages/call/call",
+    "components/calendar/Calendar/Calendar"
   ],
   "subPackages": [],
   "window": {

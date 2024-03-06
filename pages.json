@@ -137,6 +137,15 @@
             }
             
         }
+        ,{
+            "path" : "components/calendar/Calendar/Calendar",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
